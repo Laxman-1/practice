@@ -1,0 +1,27 @@
+
+.member {
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: 0;
+    background-color: black;
+    text-align: left;
+    padding: 2px;
+}
+
+.member li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.member li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+}
+
+.member li a:hover {
+    background-color: white;
+    color: black;
+}

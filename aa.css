@@ -1,0 +1,252 @@
+/* Existing styles for the nav bar */
+/* ... (existing styles) ... */
+
+/* New styles for the responsive nav bar */
+nav {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Adjust the styles for the dropdown menu */
+.member .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: left;
+}
+
+.member .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.member .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.member .dropdown-content a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Add media query for small screens */
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .member {
+        display: none;
+        text-align: center;
+    }
+
+    .member.active {
+        display: block;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    transition: all 0.5s ease;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.w {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.member {
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: 0;
+    background-color: black;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 2px solid #222;
+}
+
+.member li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.member li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+}
+
+.member li a:hover {
+    background-color: white;
+    color: black;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+}
+
+
+
+        /* ... (existing styles) ... */
+        /* Add new styles for dropdown */
+        .member .dropdown {
+            position: relative;
+        }
+
+        .member .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: black;
+            min-width: 150px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            text-align: left;
+        }
+
+        .member .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .member .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .member .dropdown-content a:hover {
+            background-color: white;
+            color: black;
+        }
+
+
+
+    
+        body {
+            background-image: url("1.webp");
+            background-size:100%;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+
+        .member {
+            color: white;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: 0;
+            background-color: black;
+            text-align: left;
+            padding: 10px;
+        }
+
+        .member li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .member li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 16px;
+        }
+
+        .member li a:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .homepage-content {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        h1 {
+            color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 0;
+        }
+
+        .a-text {
+            color: whitesmoke;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .highlight {
+            background-color: lightgrey;
+            color: black;
+        }
+
+        
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    transition: all 0.5s ease;
+}
+
+.w{
+  background-color:black;
+  color: white; /* Set text color to white */
+  padding: 20px;
+}
+
+   
